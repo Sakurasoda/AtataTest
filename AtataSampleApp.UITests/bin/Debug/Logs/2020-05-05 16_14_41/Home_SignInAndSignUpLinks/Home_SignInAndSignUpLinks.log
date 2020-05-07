@@ -1,0 +1,48 @@
+2020-05-05 16:14:46.6891 INFO Starting test: Home_SignInAndSignUpLinks
+2020-05-05 16:14:46.6941 TRACE Starting: Set up AtataContext
+2020-05-05 16:14:46.6991 TRACE Use: "Atata.json" config
+2020-05-05 16:14:46.7033 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:14:46.7083 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:14:46.7113 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:14:46.7163 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:14:46.7207 TRACE Set: Culture=en-US
+2020-05-05 16:14:49.7941 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:14:49.7990 TRACE Finished: Set up AtataContext (3.104s)
+2020-05-05 16:14:49.8040 INFO Go to "Home" page
+2020-05-05 16:14:49.8090 INFO Go to URL "https://demo.atata.io/"
+2020-05-05 16:14:50.2303 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:50.2413 INFO Finished: Assert: title should equal "Atata Sample App" (0.010s)
+2020-05-05 16:14:50.2452 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:50.2729 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.027s)
+2020-05-05 16:14:50.2769 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:50.3147 INFO Finished: Assert: content should contain "Lorem ipsum" (0.037s)
+2020-05-05 16:14:50.3207 INFO Starting: Assert: "Sign In" link content should equal "Sign In"
+2020-05-05 16:14:50.3556 INFO Finished: Assert: "Sign In" link content should equal "Sign In" (0.034s)
+2020-05-05 16:14:50.3606 INFO Starting: Assert: "Sign Up" link content should equal "Sign Up"
+2020-05-05 16:14:50.3912 INFO Finished: Assert: "Sign Up" link content should equal "Sign Up" (0.030s)
+2020-05-05 16:14:50.3962 INFO Starting: Click "Sign In" link
+2020-05-05 16:14:50.4655 INFO Finished: Click "Sign In" link (0.069s)
+2020-05-05 16:14:50.4764 INFO Go to "Sign In" page
+2020-05-05 16:14:50.4934 INFO Starting: Assert: title should equal "Sign In - Atata Sample App"
+2020-05-05 16:14:50.5024 INFO Finished: Assert: title should equal "Sign In - Atata Sample App" (0.008s)
+2020-05-05 16:14:50.5073 INFO Starting: Assert: "Sign In" <h1> heading should exist
+2020-05-05 16:14:50.5303 INFO Finished: Assert: "Sign In" <h1> heading should exist (0.022s)
+2020-05-05 16:14:50.5363 INFO Go back
+2020-05-05 16:14:50.5512 INFO Go to "Home" page
+2020-05-05 16:14:50.5582 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:50.5662 INFO Finished: Assert: title should equal "Atata Sample App" (0.007s)
+2020-05-05 16:14:50.5712 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:50.5901 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.018s)
+2020-05-05 16:14:50.5961 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:50.6229 INFO Finished: Assert: content should contain "Lorem ipsum" (0.026s)
+2020-05-05 16:14:50.6289 INFO Starting: Click "Sign Up" link
+2020-05-05 16:14:50.6839 INFO Finished: Click "Sign Up" link (0.054s)
+2020-05-05 16:14:50.6899 INFO Go to "Sign Up" page
+2020-05-05 16:14:50.7068 INFO Starting: Assert: title should equal "Sign Up - Atata Sample App"
+2020-05-05 16:14:50.7158 INFO Finished: Assert: title should equal "Sign Up - Atata Sample App" (0.008s)
+2020-05-05 16:14:50.7218 INFO Starting: Assert: "Sign Up" <h1> heading should exist
+2020-05-05 16:14:50.7437 INFO Finished: Assert: "Sign Up" <h1> heading should exist (0.021s)
+2020-05-05 16:14:50.7497 INFO Starting: Clean up test context
+2020-05-05 16:14:50.8335 INFO Finished: Clean up test context (0.083s)
+2020-05-05 16:14:50.8394 INFO Finished test (4.150s)
+2020-05-05 16:14:50.8445 INFO Pure test execution time: 0.945s

@@ -1,0 +1,36 @@
+2020-05-05 16:29:45.8445 INFO Starting test: SignIn
+2020-05-05 16:29:46.0071 TRACE Starting: Set up AtataContext
+2020-05-05 16:29:46.0141 TRACE Use: "Atata.json" config
+2020-05-05 16:29:46.0191 TRACE Set: BaseUrl=http://job-dashboard.swekv.com/Account/Login
+2020-05-05 16:29:46.0260 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:29:46.0310 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:29:46.0350 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:29:46.0400 TRACE Set: Culture=en-US
+2020-05-05 16:29:48.9575 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:29:48.9634 TRACE Finished: Set up AtataContext (2.956s)
+2020-05-05 16:30:01.6260 INFO Go to "Sign In" page
+2020-05-05 16:30:01.7870 INFO Go to URL "http://job-dashboard.swekv.com/Account/Login/signin"
+2020-05-05 16:30:02.0474 INFO Starting: Assert: title should equal "Sign In - Atata Sample App"
+2020-05-05 16:30:13.6599 ERROR Wrong "Sign In" page title.
+Expected: should equal "Sign In - Atata Sample App"
+Actual: ""
+   at Atata.AssertionVerificationStrategy.ReportFailure(String message, Exception exception)
+   at Atata.IDataVerificationProviderExtensions.Satisfy[TData,TOwner](IDataVerificationProvider`2 should, Predicate`1 predicate, String message, TData[] args)
+   at Atata.IDataVerificationProviderExtensions.MatchAny[TOwner](IDataVerificationProvider`2 should, TermMatch match, String[] expected)
+   at Atata.UIComponentTriggerSet`1.Execute(TriggerEvents on)
+   at Atata.PageObject`1.Init()
+   at Atata.Go.To[T](T pageObject, GoOptions options)
+   at AtataSampleApp.UITests.UiTestFixture.Login() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\UITestFixture.cs:line 53
+   at AtataSampleApp.UITests.SignInTests.SignIn() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\SignInTests.cs:line 11
+
+2020-05-05 16:30:13.6709 INFO Take screenshot #01 - Failed
+2020-05-05 16:30:25.7036 ERROR Screenshot failed OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at Atata.LogManager.Screenshot(String title)
+2020-05-05 16:30:25.7136 INFO Starting: Clean up test context
+2020-05-05 16:30:25.7614 INFO Finished: Clean up test context (0.047s)
+2020-05-05 16:30:25.7674 INFO Finished test (39.929s)
+2020-05-05 16:30:25.7744 INFO Pure test execution time: 36.745s

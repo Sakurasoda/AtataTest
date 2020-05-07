@@ -1,0 +1,27 @@
+2020-05-05 16:13:35.7538 INFO Starting test: Page_Forbidden
+2020-05-05 16:13:35.9106 TRACE Starting: Set up AtataContext
+2020-05-05 16:13:35.9162 TRACE Use: "Atata.json" config
+2020-05-05 16:13:35.9202 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:13:35.9262 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:13:35.9292 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:13:35.9373 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:13:35.9422 TRACE Set: Culture=en-US
+2020-05-05 16:13:39.0956 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:13:39.1046 TRACE Finished: Set up AtataContext (3.193s)
+2020-05-05 16:13:39.1863 INFO Go to URL "https://demo.atata.io/users"
+2020-05-05 16:13:39.6890 INFO Go to "Forbidden" page
+2020-05-05 16:13:39.8023 INFO Starting: Assert: title should equal "Forbidden - Atata Sample App"
+2020-05-05 16:13:41.3032 INFO Finished: Assert: title should equal "Forbidden - Atata Sample App" (1.500s)
+2020-05-05 16:13:41.3242 INFO Starting: Assert: "Containing 'Forbidden'" <h1> heading should exist
+2020-05-05 16:13:41.3870 INFO Finished: Assert: "Containing 'Forbidden'" <h1> heading should exist (0.062s)
+2020-05-05 16:13:41.4009 INFO Starting: Click "Sign In" link
+2020-05-05 16:13:41.4747 INFO Finished: Click "Sign In" link (0.073s)
+2020-05-05 16:13:41.4887 INFO Go to "Sign In" page
+2020-05-05 16:13:41.5057 INFO Starting: Assert: title should equal "Sign In - Atata Sample App"
+2020-05-05 16:13:41.5126 INFO Finished: Assert: title should equal "Sign In - Atata Sample App" (0.006s)
+2020-05-05 16:13:41.5186 INFO Starting: Assert: "Sign In" <h1> heading should exist
+2020-05-05 16:13:41.5406 INFO Finished: Assert: "Sign In" <h1> heading should exist (0.021s)
+2020-05-05 16:13:41.5605 INFO Starting: Clean up test context
+2020-05-05 16:13:42.3378 INFO Finished: Clean up test context (0.777s)
+2020-05-05 16:13:42.3428 INFO Finished test (6.595s)
+2020-05-05 16:13:42.3468 INFO Pure test execution time: 2.450s

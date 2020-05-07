@@ -1,0 +1,12 @@
+2020-05-06 09:02:21.7713 INFO Starting test: SignIn
+2020-05-06 09:02:21.9278 TRACE Starting: Set up AtataContext
+2020-05-06 09:02:21.9338 TRACE Use: "Atata.json" config
+2020-05-06 09:02:21.9378 TRACE Set: BaseUrl=http://job-dashboard.swekv.com/Account/Login
+2020-05-06 09:02:21.9428 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-06 09:02:21.9488 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-06 09:02:21.9528 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-06 09:02:21.9578 TRACE Set: Culture=en-US
+2020-05-06 09:02:24.8616 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-06 09:02:24.8676 TRACE Finished: Set up AtataContext (2.939s)
+2020-05-06 09:02:27.9417 INFO Go to "Sign In" page
+2020-05-06 09:02:28.1003 INFO Go to URL "http://job-dashboard.swekv.com/Account/Login/signin"

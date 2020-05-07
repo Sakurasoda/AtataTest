@@ -1,0 +1,41 @@
+2020-05-06 10:03:06.1759 INFO Starting test: SignIn
+2020-05-06 10:03:06.3354 TRACE Starting: Set up AtataContext
+2020-05-06 10:03:06.3414 TRACE Use: "Atata.json" config
+2020-05-06 10:03:06.3464 TRACE Set: BaseUrl=http://localhost:24400/
+2020-05-06 10:03:06.3514 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-06 10:03:06.3554 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-06 10:03:06.3594 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-06 10:03:06.3643 TRACE Set: Culture=en-US
+2020-05-06 10:03:09.2706 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-06 10:03:09.2766 TRACE Finished: Set up AtataContext (2.941s)
+2020-05-06 10:03:13.0538 INFO Go to "Sign In" page
+2020-05-06 10:03:13.1926 INFO Go to URL "http://localhost:24400/"
+2020-05-06 10:03:17.3973 INFO Starting: Set "123456" to "Password" password input
+2020-05-06 10:03:47.5174 ERROR OpenQA.Selenium.WebDriverException : chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElements(String mechanism, String value)
+   at Atata.ExtendedSearchContext`1.<>c__DisplayClass35_0.<Find>g__FindElement|0(T context)
+   at Atata.SafeWait`1.Until[TResult](Func`2 condition)
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.XPathComponentScopeFindResult.Get(String xPathCondition)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.Input`2.SetValue(T value)
+   at Atata.EditableField`2.Set(T value)
+   at AtataSampleApp.UITests.SignInTests.SignIn() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\SignInTests.cs:line 13
+2020-05-06 10:03:47.5304 INFO Take screenshot #01 - Failed
+2020-05-06 10:03:59.5523 ERROR Screenshot failed OpenQA.Selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.129)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.GetScreenshot()
+   at Atata.LogManager.Screenshot(String title)
+2020-05-06 10:03:59.5643 INFO Starting: Clean up test context
+2020-05-06 10:03:59.6052 INFO Finished: Clean up test context (0.040s)
+2020-05-06 10:03:59.6122 INFO Finished test (53.443s)
+2020-05-06 10:03:59.6182 INFO Pure test execution time: 50.282s

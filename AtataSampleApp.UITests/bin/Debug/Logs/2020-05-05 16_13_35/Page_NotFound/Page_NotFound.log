@@ -1,0 +1,20 @@
+2020-05-05 16:13:42.3568 INFO Starting test: Page_NotFound
+2020-05-05 16:13:42.3618 TRACE Starting: Set up AtataContext
+2020-05-05 16:13:42.3664 TRACE Use: "Atata.json" config
+2020-05-05 16:13:42.3704 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:13:42.3744 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:13:42.3784 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:13:42.3824 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:13:42.3873 TRACE Set: Culture=en-US
+2020-05-05 16:13:45.4391 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:13:45.4460 TRACE Finished: Set up AtataContext (3.084s)
+2020-05-05 16:13:45.4530 INFO Go to URL "https://demo.atata.io/not-found-page"
+2020-05-05 16:13:45.8350 INFO Go to "Page Not Found" page
+2020-05-05 16:13:45.8500 INFO Starting: Assert: title should equal "Page Not Found - Atata Sample App"
+2020-05-05 16:13:46.1671 INFO Finished: Assert: title should equal "Page Not Found - Atata Sample App" (0.317s)
+2020-05-05 16:13:46.1761 INFO Starting: Assert: "Containing 'Page Not Found'" <h1> heading should exist
+2020-05-05 16:13:46.2030 INFO Finished: Assert: "Containing 'Page Not Found'" <h1> heading should exist (0.026s)
+2020-05-05 16:13:46.2080 INFO Starting: Clean up test context
+2020-05-05 16:13:46.2798 INFO Finished: Clean up test context (0.071s)
+2020-05-05 16:13:46.2858 INFO Finished test (3.928s)
+2020-05-05 16:13:46.2907 INFO Pure test execution time: 0.755s

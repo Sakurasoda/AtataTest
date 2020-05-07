@@ -1,0 +1,17 @@
+2020-05-06 10:09:44.2497 INFO Starting test: SignIn
+2020-05-06 10:09:44.4132 TRACE Starting: Set up AtataContext
+2020-05-06 10:09:44.4193 TRACE Use: "Atata.json" config
+2020-05-06 10:09:44.4232 TRACE Set: BaseUrl=http://localhost:41546/
+2020-05-06 10:09:44.4292 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-06 10:09:44.4342 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-06 10:09:44.4382 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-06 10:09:44.4422 TRACE Set: Culture=en-US
+2020-05-06 10:09:47.3632 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-06 10:09:47.3691 TRACE Finished: Set up AtataContext (2.955s)
+2020-05-06 10:09:50.0000 INFO Go to "Sign In" page
+2020-05-06 10:09:50.1406 INFO Go to URL "http://localhost:41546/"
+2020-05-06 10:09:54.9397 INFO Starting: Set "123456" to "Password" password input
+2020-05-06 10:09:55.1015 INFO Finished: Set "123456" to "Password" password input (0.161s)
+2020-05-06 10:09:55.1839 INFO Starting: Set "admin" to "Username" text input
+2020-05-06 10:09:55.3016 INFO Finished: Set "admin" to "Username" text input (0.117s)
+2020-05-06 10:09:55.3315 INFO Starting: Click "Log Me In" button

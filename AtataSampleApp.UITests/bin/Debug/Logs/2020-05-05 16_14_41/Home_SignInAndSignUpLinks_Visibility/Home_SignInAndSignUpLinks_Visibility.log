@@ -1,0 +1,81 @@
+2020-05-05 16:14:50.8517 INFO Starting test: Home_SignInAndSignUpLinks_Visibility
+2020-05-05 16:14:50.8574 TRACE Starting: Set up AtataContext
+2020-05-05 16:14:50.8614 TRACE Use: "Atata.json" config
+2020-05-05 16:14:50.8664 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:14:50.8704 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:14:50.8743 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:14:50.8783 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:14:50.8833 TRACE Set: Culture=en-US
+2020-05-05 16:14:53.8883 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:14:53.8923 TRACE Finished: Set up AtataContext (3.034s)
+2020-05-05 16:14:53.8993 INFO Go to "Home" page
+2020-05-05 16:14:53.9053 INFO Go to URL "https://demo.atata.io/"
+2020-05-05 16:14:54.3255 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:54.3364 INFO Finished: Assert: title should equal "Atata Sample App" (0.010s)
+2020-05-05 16:14:54.3414 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:54.3669 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.025s)
+2020-05-05 16:14:54.3719 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:54.4108 INFO Finished: Assert: content should contain "Lorem ipsum" (0.038s)
+2020-05-05 16:14:54.4167 INFO Starting: Assert: "Sign In" link should exist
+2020-05-05 16:14:54.4400 INFO Finished: Assert: "Sign In" link should exist (0.023s)
+2020-05-05 16:14:54.4450 INFO Starting: Assert: "Sign Up" link should exist
+2020-05-05 16:14:54.4670 INFO Finished: Assert: "Sign Up" link should exist (0.021s)
+2020-05-05 16:14:54.4719 INFO Starting: Click "Sign In" link
+2020-05-05 16:14:54.5398 INFO Finished: Click "Sign In" link (0.067s)
+2020-05-05 16:14:54.5448 INFO Go to "Sign In" page
+2020-05-05 16:14:54.5528 INFO Starting: Assert: title should equal "Sign In - Atata Sample App"
+2020-05-05 16:14:54.5607 INFO Finished: Assert: title should equal "Sign In - Atata Sample App" (0.007s)
+2020-05-05 16:14:54.5667 INFO Starting: Assert: "Sign In" <h1> heading should exist
+2020-05-05 16:14:54.5887 INFO Finished: Assert: "Sign In" <h1> heading should exist (0.021s)
+2020-05-05 16:14:54.5957 INFO Starting: Set "admin@mail.com" to "Email" text input
+2020-05-05 16:14:54.7455 INFO Finished: Set "admin@mail.com" to "Email" text input (0.149s)
+2020-05-05 16:14:54.7515 INFO Starting: Set "abc123" to "Password" password input
+2020-05-05 16:14:54.8732 INFO Finished: Set "abc123" to "Password" password input (0.121s)
+2020-05-05 16:14:54.8782 INFO Starting: Click "Sign In" button
+2020-05-05 16:14:54.9791 INFO Finished: Click "Sign In" button (0.100s)
+2020-05-05 16:14:54.9850 INFO Go to "Users" page
+2020-05-05 16:14:54.9990 INFO Starting: Assert: title should equal "Users - Atata Sample App"
+2020-05-05 16:14:55.0080 INFO Finished: Assert: title should equal "Users - Atata Sample App" (0.008s)
+2020-05-05 16:14:55.0140 INFO Starting: Assert: "Users" <h1> heading should exist
+2020-05-05 16:14:55.0396 INFO Finished: Assert: "Users" <h1> heading should exist (0.025s)
+2020-05-05 16:14:55.0458 INFO Starting: Click "Menu" navbar's "Home" link
+2020-05-05 16:14:55.1235 INFO Finished: Click "Menu" navbar's "Home" link (0.077s)
+2020-05-05 16:14:55.1286 INFO Go to "Home" page
+2020-05-05 16:14:55.1365 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:55.1445 INFO Finished: Assert: title should equal "Atata Sample App" (0.007s)
+2020-05-05 16:14:55.1505 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:55.1688 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.018s)
+2020-05-05 16:14:55.1738 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:55.2015 INFO Finished: Assert: content should contain "Lorem ipsum" (0.027s)
+2020-05-05 16:14:55.2086 INFO Starting: Assert: "Sign In" link should not exist
+2020-05-05 16:14:55.2395 INFO Finished: Assert: "Sign In" link should not exist (0.030s)
+2020-05-05 16:14:55.2445 INFO Starting: Assert: "Sign Up" link should not exist
+2020-05-05 16:14:55.2555 INFO Finished: Assert: "Sign Up" link should not exist (0.010s)
+2020-05-05 16:14:55.2605 INFO Starting: Click "Menu" navbar's "Account" dropdown's "Sign Out" link
+2020-05-05 16:14:55.3175 INFO Starting: Click "Menu" navbar's "Account" dropdown
+2020-05-05 16:14:55.3225 TRACE Starting: Click "Menu" navbar's "Account" dropdown's "Toggle" dropdown toggle
+2020-05-05 16:14:55.3774 TRACE Finished: Click "Menu" navbar's "Account" dropdown's "Toggle" dropdown toggle (0.054s)
+2020-05-05 16:14:55.3824 INFO Finished: Click "Menu" navbar's "Account" dropdown (0.064s)
+2020-05-05 16:14:55.4423 INFO Finished: Click "Menu" navbar's "Account" dropdown's "Sign Out" link (0.181s)
+2020-05-05 16:14:55.4472 INFO Go to "Sign In" page
+2020-05-05 16:14:55.4552 INFO Starting: Assert: title should equal "Sign In - Atata Sample App"
+2020-05-05 16:14:55.4632 INFO Finished: Assert: title should equal "Sign In - Atata Sample App" (0.007s)
+2020-05-05 16:14:55.4692 INFO Starting: Assert: "Sign In" <h1> heading should exist
+2020-05-05 16:14:55.4891 INFO Finished: Assert: "Sign In" <h1> heading should exist (0.019s)
+2020-05-05 16:14:55.4941 INFO Starting: Click "Menu" navbar's "Home" link
+2020-05-05 16:14:55.5502 INFO Finished: Click "Menu" navbar's "Home" link (0.056s)
+2020-05-05 16:14:55.5562 INFO Go to "Home" page
+2020-05-05 16:14:55.5622 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:55.5710 INFO Finished: Assert: title should equal "Atata Sample App" (0.008s)
+2020-05-05 16:14:55.5770 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:55.5969 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.019s)
+2020-05-05 16:14:55.6019 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:55.6288 INFO Finished: Assert: content should contain "Lorem ipsum" (0.026s)
+2020-05-05 16:14:55.6348 INFO Starting: Assert: "Sign In" link should exist
+2020-05-05 16:14:55.6537 INFO Finished: Assert: "Sign In" link should exist (0.018s)
+2020-05-05 16:14:55.6589 INFO Starting: Assert: "Sign Up" link should exist
+2020-05-05 16:14:55.6768 INFO Finished: Assert: "Sign Up" link should exist (0.017s)
+2020-05-05 16:14:55.6829 INFO Starting: Clean up test context
+2020-05-05 16:14:55.7666 INFO Finished: Clean up test context (0.083s)
+2020-05-05 16:14:55.7716 INFO Finished test (4.919s)
+2020-05-05 16:14:55.7766 INFO Pure test execution time: 1.785s

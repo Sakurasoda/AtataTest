@@ -1,0 +1,19 @@
+2020-05-05 16:05:28.0662 INFO Starting test: Page_NotFound
+2020-05-05 16:05:28.2581 TRACE Starting: Set up AtataContext
+2020-05-05 16:05:28.2641 TRACE Use: "Atata.json" config
+2020-05-05 16:05:28.2681 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:05:28.2741 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:05:28.2781 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:05:28.2821 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:05:28.2871 TRACE Set: Culture=en-US
+2020-05-05 16:05:28.4476 ERROR OpenQA.Selenium.DriverServiceNotFoundException : The chromedriver.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://chromedriver.storage.googleapis.com/index.html.
+   at OpenQA.Selenium.DriverService.FindDriverServiceExecutable(String executableName, Uri downloadUrl)
+   at OpenQA.Selenium.Chrome.ChromeDriverService.CreateDefaultService()
+   at Atata.DriverAtataContextBuilder`3.CreateDriver()
+   at Atata.AtataContext.InitDriver()
+   at Atata.AtataContextBuilder.Build()
+   at AtataSampleApp.UITests.UiTestFixture.SetUp() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\UITestFixture.cs:line 17
+2020-05-05 16:05:28.4576 INFO Starting: Clean up test context
+2020-05-05 16:05:28.4656 INFO Finished: Clean up test context (0.007s)
+2020-05-05 16:05:28.4706 INFO Finished test (0.412s)
+2020-05-05 16:05:28.4756 INFO Pure test execution time: 1062071525m 28.457s

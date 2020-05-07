@@ -1,0 +1,29 @@
+2020-05-05 16:35:33.7350 INFO Starting test: SignIn
+2020-05-05 16:35:33.8950 TRACE Starting: Set up AtataContext
+2020-05-05 16:35:33.9010 TRACE Use: "Atata.json" config
+2020-05-05 16:35:33.9050 TRACE Set: BaseUrl=http://job-dashboard.swekv.com/Account/Login
+2020-05-05 16:35:33.9100 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:35:33.9140 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:35:33.9190 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:35:33.9229 TRACE Set: Culture=en-US
+2020-05-05 16:35:36.8619 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:35:36.8679 TRACE Finished: Set up AtataContext (2.972s)
+2020-05-05 16:35:38.9272 INFO Go to "Sign In" page
+2020-05-05 16:35:39.0857 INFO Go to URL "http://job-dashboard.swekv.com/Account/Login/signin"
+2020-05-05 16:35:39.3461 INFO Starting: Set "admin" to "Username" telephone input
+2020-05-05 16:36:06.7284 ERROR OpenQA.Selenium.NoSuchElementException : Unable to locate visible element:
+- By.XPath: .//*[normalize-space(@id) = 'username']/descendant-or-self::input[@type='tel']
+- Search time: 5.006s
+- Search options: {Visibility=Visible, Timeout=5s, RetryInterval=0.5s, IsSafely=False}
+   at Atata.ExtendedSearchContext`1.Find(By by)
+   at Atata.XPathComponentScopeFindResult.Get(String xPathCondition)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source, Func`2 predicate)
+   at Atata.StrategyScopeLocator.GetElement(SearchOptions searchOptions, String xPathCondition)
+   at Atata.UIComponent`1.OnGetScopeElement(SearchOptions searchOptions)
+   at Atata.UIComponent.GetScopeElement(SearchOptions searchOptions)
+   at Atata.Input`2.SetValue(T value)
+   at Atata.EditableField`2.Set(T value)
+   at AtataSampleApp.UITests.UiTestFixture.Login() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\UITestFixture.cs:line 53
+   at AtataSampleApp.UITests.SignInTests.SignIn() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\SignInTests.cs:line 11
+2020-05-05 16:36:06.7374 INFO Take screenshot #01 - Failed

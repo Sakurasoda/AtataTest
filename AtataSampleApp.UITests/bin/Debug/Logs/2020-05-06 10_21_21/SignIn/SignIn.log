@@ -1,0 +1,15 @@
+2020-05-06 10:21:21.1503 INFO Starting test: SignIn
+2020-05-06 10:21:21.3089 TRACE Starting: Set up AtataContext
+2020-05-06 10:21:21.3158 TRACE Use: "Atata.json" config
+2020-05-06 10:21:21.3189 TRACE Set: BaseUrl=http://localhost:41546/
+2020-05-06 10:21:21.3249 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-06 10:21:21.3288 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-06 10:21:21.3328 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-06 10:21:21.3378 TRACE Set: Culture=en-US
+2020-05-06 10:21:24.2261 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-06 10:21:24.2331 TRACE Finished: Set up AtataContext (2.924s)
+2020-05-06 10:21:26.1180 INFO Go to "Sign In" page
+2020-05-06 10:21:26.2618 INFO Go to URL "http://localhost:41546/"
+2020-05-06 10:21:31.0719 TRACE Starting: Wait until "Sign In" page is visible within 5s with throw on failure with 0.5s retry interval
+2020-05-06 10:21:31.1168 TRACE Finished: Wait until "Sign In" page is visible within 5s with throw on failure with 0.5s retry interval (0.044s)
+2020-05-06 10:21:31.1447 INFO Starting: Click "Close" button

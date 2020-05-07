@@ -1,0 +1,30 @@
+2020-05-06 10:05:47.9395 INFO Starting test: SignIn
+2020-05-06 10:05:48.0976 TRACE Starting: Set up AtataContext
+2020-05-06 10:05:48.1085 TRACE Use: "Atata.json" config
+2020-05-06 10:05:48.1155 TRACE Set: BaseUrl=http://localhost:41546/
+2020-05-06 10:05:48.1215 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-06 10:05:48.1255 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-06 10:05:48.1295 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-06 10:05:48.1345 TRACE Set: Culture=en-US
+2020-05-06 10:05:51.0489 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-06 10:05:51.0549 TRACE Finished: Set up AtataContext (2.957s)
+2020-05-06 10:05:52.7740 INFO Go to "Sign In" page
+2020-05-06 10:05:52.9112 INFO Go to URL "http://localhost:41546/"
+2020-05-06 10:05:58.5170 INFO Starting: Set "123456" to "Password" password input
+2020-05-06 10:05:58.7001 INFO Finished: Set "123456" to "Password" password input (0.183s)
+2020-05-06 10:05:58.7809 INFO Starting: Set "admin" to "Username" text input
+2020-05-06 10:05:58.8767 INFO Finished: Set "admin" to "Username" text input (0.095s)
+2020-05-06 10:05:58.9036 INFO Starting: Click "Log Me In" button
+2020-05-06 10:06:19.4570 ERROR OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <button id="login-box" class="login-btn ng-binding" ng-disabled="isProcessing" ng-bind="isProcessing ? '......' : '??'">??</button> is not clickable at point (875, 128). Other element would receive the click: <div class="modal-overlay modal-show" ng-class="{'modal-show': enable}" style=""></div>
+  (Session info: chrome=81.0.4044.129)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)
+   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+   at OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters)
+   at Atata.Control`1.Click()
+   at AtataSampleApp.UITests.SignInTests.SignIn() in C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\SignInTests.cs:line 13
+2020-05-06 10:06:19.4679 INFO Take screenshot #01 - Failed
+2020-05-06 10:06:20.0859 INFO Screenshot saved to file "C:\Users\admin\source\repos\atata-sample-app-tests\src\AtataSampleApp.UITests\bin\Debug\Logs\2020-05-06 10_05_47\SignIn\01 - Sign In page - Failed.png"
+2020-05-06 10:06:20.0919 INFO Starting: Clean up test context
+2020-05-06 10:06:20.2169 INFO Finished: Clean up test context (0.124s)
+2020-05-06 10:06:20.2228 INFO Finished test (32.289s)
+2020-05-06 10:06:20.2298 INFO Pure test execution time: 29.032s

@@ -1,0 +1,24 @@
+2020-05-05 16:14:41.7005 INFO Starting test: Home
+2020-05-05 16:14:41.8581 TRACE Starting: Set up AtataContext
+2020-05-05 16:14:41.8639 TRACE Use: "Atata.json" config
+2020-05-05 16:14:41.8671 TRACE Set: BaseUrl=https://demo.atata.io/
+2020-05-05 16:14:41.8731 TRACE Set: ElementFindTimeout=5s; ElementFindRetryInterval=0.5s
+2020-05-05 16:14:41.8761 TRACE Set: WaitingTimeout=5s; WaitingRetryInterval=0.5s
+2020-05-05 16:14:41.8832 TRACE Set: VerificationTimeout=5s; VerificationRetryInterval=0.5s
+2020-05-05 16:14:41.8872 TRACE Set: Culture=en-US
+2020-05-05 16:14:44.7583 TRACE Set: Driver=ChromeDriver (alias=chrome)
+2020-05-05 16:14:44.7643 TRACE Finished: Set up AtataContext (2.906s)
+2020-05-05 16:14:44.8072 INFO Go to "Home" page
+2020-05-05 16:14:44.9101 INFO Go to URL "https://demo.atata.io/"
+2020-05-05 16:14:46.3958 INFO Starting: Assert: title should equal "Atata Sample App"
+2020-05-05 16:14:46.4118 INFO Finished: Assert: title should equal "Atata Sample App" (0.015s)
+2020-05-05 16:14:46.4324 INFO Starting: Assert: "Atata Sample App" <h1> heading should exist
+2020-05-05 16:14:46.4923 INFO Finished: Assert: "Atata Sample App" <h1> heading should exist (0.059s)
+2020-05-05 16:14:46.5003 INFO Starting: Assert: content should contain "Lorem ipsum"
+2020-05-05 16:14:46.5492 INFO Finished: Assert: content should contain "Lorem ipsum" (0.048s)
+2020-05-05 16:14:46.5632 INFO Starting: Assert: URL should equal "https://demo.atata.io/"
+2020-05-05 16:14:46.5724 INFO Finished: Assert: URL should equal "https://demo.atata.io/" (0.009s)
+2020-05-05 16:14:46.5904 INFO Starting: Clean up test context
+2020-05-05 16:14:46.6681 INFO Finished: Clean up test context (0.077s)
+2020-05-05 16:14:46.6731 INFO Finished test (4.979s)
+2020-05-05 16:14:46.6771 INFO Pure test execution time: 1.821s
